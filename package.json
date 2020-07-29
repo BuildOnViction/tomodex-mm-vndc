@@ -1,0 +1,21 @@
+{
+  "name": "tomox-market-maker",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "node cmd.js bot BTC-TOMO",
+    "lend": "node cmd.js lend USD-60",
+    "lint": "eslint --cache ./ --ext .js"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "bignumber.js": "^9.0.0",
+    "commander": "^3.0.2",
+    "config": "^3.2.3",
+    "tomojs": "^1.1.3",
+    "tomoxjs": "^0.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}

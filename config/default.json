@@ -1,0 +1,32 @@
+{
+    "ETC-BTC": {
+        "pkey": "0x",
+        "matches": [ 
+            "0xxxx"
+        ],
+        "baseToken": "0x0000000000000000000000000000000000000001",
+        "quoteToken": "0xBD8b2Fb871F97b2d5F0A1af3bF73619b09174B2A",
+        "orderbookLength": 10,
+        "matchedSpeed": 5000,
+        "speed": 5000
+    },
+    "USD-60": {
+        "pkey": "0x",
+        "term": 60,
+        "lendingToken": "0x260eD86C808f0de23721Abf47039C8dA53C0be2f",
+        "collateralToken": "0x9839B789b09292c175Cc7173337520fE8fd9d8FE",
+        "speed": 5000
+    },
+    "randomRange": 50,
+    "relayerUrl": "http://localhost:3001",
+    "rpc": "http://localhost:8545",
+    "orderbookLength": 5,
+    "lendOrderbookLength": 2,
+    "speed": 50000,
+    "matchedSpeed": 5000,
+    "volume": 10,
+    "matchedVolume": 10,
+    "lendingVolume": 500,
+    "step": 0.01,
+    "lendStep": 0.1
+}
