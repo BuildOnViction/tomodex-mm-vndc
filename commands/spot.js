@@ -212,7 +212,6 @@ const fillOrderbook = async (len, side, nonce = 0) => {
         for (let i = 0; i < len; i++) {
             let price = findGoodPrice(side)
             let ranNum = Math.floor(Math.random() * randomRange) / 100 + 1
-            console.log(amount, ranNum, FIXA)
 
             let o = {
                 baseToken: baseToken,
@@ -356,7 +355,6 @@ const run = async (p) => {
     FIXA = prec.amountPrecision
 
     defaultAmount = parseFloat(new BigNumber(defaultVolume).dividedBy(usdPrice).toFixed(FIXA))
-    console.log(defaultAmount)
     defaultMatchedAmount = parseFloat(new BigNumber(defaultMatchedVolume).dividedBy(usdPrice).toFixed(FIXA))
 
     randomRange = config[pair].randomRange || config.randomRange|| 20
